@@ -624,7 +624,6 @@ video {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 1rem;
-  row-gap: 0.5rem;
 }
 
 @media (min-width: 768px) {

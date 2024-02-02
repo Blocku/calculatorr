@@ -7,5 +7,5 @@
 }
 
 .btn-rows{
-    @apply grid gap-4 gap-y-2 grid-cols-4;
+    @apply grid gap-4 grid-cols-4;
 }
