@@ -662,7 +662,7 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:w-\[30vw\] {
-    width: 30vw;
+  .lg\:w-\[22vw\] {
+    width: 22vw;
   }
 }
