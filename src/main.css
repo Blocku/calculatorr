@@ -3,9 +3,13 @@
 @tailwind utilities;
 
 .btn{
-    @apply w-[22vw] h-[10vh] bg-water text-[30px] text-white rounded-[10px] gap-1;
+    @apply w-[22%] h-[80%] bg-water text-[30px] text-white rounded-[10px]  active:bg-blue-700;
+}
+
+.btn--bg{
+    @apply bg-blue-600;
 }
 
 .btn-rows{
-    @apply grid gap-4 grid-cols-4;
+    @apply flex items-center justify-around h-[17%] ;
 }
