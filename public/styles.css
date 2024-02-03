@@ -548,10 +548,6 @@ video {
   display: flex;
 }
 
-.h-\[100vh\] {
-  height: 100vh;
-}
-
 .h-\[30\%\] {
   height: 30%;
 }
@@ -574,11 +570,6 @@ video {
 
 .items-end {
   align-items: flex-end;
-}
-
-.bg-lightWater {
-  --tw-bg-opacity: 1;
-  background-color: rgb(106 148 212 / var(--tw-bg-opacity));
 }
 
 .pb-\[10px\] {
@@ -631,17 +622,54 @@ video {
   justify-content: space-around;
 }
 
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  --tw-bg-opacity: 1;
+  background-color: rgb(106 148 212 / var(--tw-bg-opacity));
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    height: 60vh;
+    width: 50vw;
+    border-radius: 15px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .wrapper {
+    width: 22vw;
+  }
+}
+
+@media screen and (min-width: 1000px) and ( max-width: 1150px) {
+  .wrapper {
+    width: 46vw;
+  }
+}
+
+@media screen and (min-width: 1150px) and ( max-width: 1300px) {
+  .wrapper {
+    width: 40vw;
+  }
+}
+
+@media screen and (min-width: 1300px) and ( max-width: 1600px) {
+  .wrapper {
+    width: 32vw;
+  }
+}
+
+@media screen and (min-height: 100px) and (max-height: 720px) {
+  .btn {
+    font-size: 20px;
+  }
+}
+
 @media (min-width: 768px) {
   .md\:flex {
     display: flex;
-  }
-
-  .md\:h-\[60vh\] {
-    height: 60vh;
-  }
-
-  .md\:w-\[50vw\] {
-    width: 50vw;
   }
 
   .md\:place-content-center {
@@ -652,17 +680,7 @@ video {
     align-items: center;
   }
 
-  .md\:rounded-\[15px\] {
-    border-radius: 15px;
-  }
-
   .md\:align-middle {
     vertical-align: middle;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:w-\[22vw\] {
-    width: 22vw;
   }
 }

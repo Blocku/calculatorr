@@ -13,3 +13,28 @@
 .btn-rows{
     @apply flex items-center justify-around h-[17%] ;
 }
+
+.wrapper{
+    @apply h-[100vh] w-full md:h-[60vh] md:w-[50vw] lg:w-[22vw] bg-lightWater md:rounded-[15px];
+}
+
+@media screen and (min-width: 1000px) and ( max-width: 1150px) {
+    .wrapper{
+        @apply w-[46vw];
+    }
+}
+@media screen and (min-width: 1150px) and ( max-width: 1300px) {
+    .wrapper{
+        @apply w-[40vw];
+    }
+}
+@media screen and (min-width: 1300px) and ( max-width: 1600px) {
+    .wrapper{
+        @apply w-[32vw];
+    }
+}
+@media screen and (min-height: 100px) and (max-height: 720px) {
+    .btn{
+        @apply text-[20px];
+    }
+}
