@@ -569,12 +569,12 @@ video {
   height: 30%;
 }
 
-.h-\[70\%\] {
-  height: 70%;
+.h-\[65\%\] {
+  height: 65%;
 }
 
-.h-\[73\%\] {
-  height: 73%;
+.h-\[70\%\] {
+  height: 70%;
 }
 
 .h-\[95\%\] {
@@ -585,20 +585,8 @@ video {
   height: 100%;
 }
 
-.h-\[65\%\] {
-  height: 65%;
-}
-
-.h-\[62\%\] {
-  height: 62%;
-}
-
 .w-\[100\%\] {
   width: 100%;
-}
-
-.w-\[78\%\] {
-  width: 78%;
 }
 
 .w-\[80\%\] {
@@ -609,28 +597,8 @@ video {
   width: 85%;
 }
 
-.w-\[90\%\] {
-  width: 90%;
-}
-
 .w-full {
   width: 100%;
-}
-
-.w-\[\%\] {
-  width: %;
-}
-
-.w-\[\] {
-  width: ;
-}
-
-.w-\[81\%\] {
-  width: 81%;
-}
-
-.w-\[83\%\] {
-  width: 83%;
 }
 
 .grid-cols-4 {
@@ -683,10 +651,6 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.to-violet-700 {
-  --tw-gradient-to: #6d28d9 var(--tw-gradient-to-position);
-}
-
 .to-violet-600 {
   --tw-gradient-to: #7c3aed var(--tw-gradient-to-position);
 }
@@ -704,43 +668,8 @@ video {
   font-family: Rubik, sans-serif, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.text-7xl {
-  font-size: 4.5rem;
-  line-height: 1;
-}
-
 .text-\[30px\] {
   font-size: 30px;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
-.text-\[40px\] {
-  font-size: 40px;
-}
-
-.text-\[70px\] {
-  font-size: 70px;
-}
-
-.text-\[60px\] {
-  font-size: 60px;
-}
-
-.text-\[50px\] {
-  font-size: 50px;
-}
-
-.text-\[10px\] {
-  font-size: 10px;
 }
 
 .text-\[55px\] {
@@ -763,10 +692,6 @@ video {
 .text-zinc-600 {
   --tw-text-opacity: 1;
   color: rgb(82 82 91 / var(--tw-text-opacity));
-}
-
-.text-\[\] {
-  color: ;
 }
 
 /* .btn{
@@ -815,40 +740,14 @@ md:h-[60vh] md:w-[50vw] lg:w-[22vw]
   background-color: rgb(39 39 42 / var(--tw-bg-opacity));
 }
 
-.active\:from-blue-900:active {
-  --tw-gradient-from: #1e3a8a var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(30 58 138 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
-.active\:from-sky-900:active {
-  --tw-gradient-from: #0c4a6e var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(12 74 110 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
 .active\:from-sky-600:active {
   --tw-gradient-from: #0284c7 var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(2 132 199 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.active\:from-sky-500:active {
-  --tw-gradient-from: #0ea5e9 var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(14 165 233 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
-.active\:to-violet-900:active {
-  --tw-gradient-to: #4c1d95 var(--tw-gradient-to-position);
-}
-
 .active\:to-violet-800:active {
   --tw-gradient-to: #5b21b6 var(--tw-gradient-to-position);
-}
-
-.active\:to-violet-700:active {
-  --tw-gradient-to: #6d28d9 var(--tw-gradient-to-position);
 }
 
 @media (min-width: 768px) {
@@ -910,6 +809,10 @@ md:h-[60vh] md:w-[50vw] lg:w-[22vw]
 }
 
 @media (prefers-color-scheme: dark) {
+  .dark\:border-none {
+    border-style: none;
+  }
+
   .dark\:border-zinc-600 {
     --tw-border-opacity: 1;
     border-color: rgb(82 82 91 / var(--tw-border-opacity));
