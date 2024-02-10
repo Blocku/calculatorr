@@ -2,22 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-.btn{
-    @apply w-[22%] h-[80%] bg-water text-[30px] text-white rounded-[10px]  active:bg-blue-700;
-}
 
-.btn--bg{
-    @apply bg-blue-600;
-}
 
-.btn-rows{
-    @apply flex items-center justify-around h-[17%] ;
-}
+/* .btn{
+    @apply w-[78%] h-[73%] mx-auto font-rubik font-semibold bg-zinc-600 text-[30px] text-white rounded-[100px]  active:bg-zinc-800;
 
-.wrapper{
-    @apply h-[100vh] w-full md:h-[60vh] md:w-[50vw] lg:w-[22vw] bg-lightWater md:rounded-[15px];
-}
 
+} */
+
+/* .btn{
+    @apply bg-indigo-600 ;
+} */
+
+
+/* .wrapper{
+    @apply h-[100vh] w-full md:h-[800px] md:w-[500px] bg-lightWater md:rounded-[15px];
+} 
+
+md:h-[60vh] md:w-[50vw] lg:w-[22vw]
 @media screen and (min-width: 1000px) and ( max-width: 1150px) {
     .wrapper{
         @apply w-[46vw];
@@ -37,4 +39,4 @@
     .btn{
         @apply text-[20px];
     }
-}
+} */

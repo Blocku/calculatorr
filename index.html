@@ -3,43 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./public/styles.css">
     <title>Document</title>
 </head>
 <body class="md:flex md:place-content-center md:align-middle md:items-center h-full">
     
-    <div class="wrapper" >
-        <section class="screen h-[30%] w-full text-white font-medium text-7xl flex place-content-end items-end pb-[10px] pr-[15px] ">0</section>
-        <section class="w-full h-[70%]">
-            <div class="btn-rows">
-                <button class="btn btn--bg">C</button>
-                <button class="btn btn--bg">←</button>
-                <button class="btn btn--bg">%</button>
-                <button class="btn btn--bg">/</button>
-            </div>
-            <div class="btn-rows">
-                <button class="btn">7</button>
-                <button class="btn">8</button>
-                <button class="btn">9</button>
-                <button class="btn btn--bg">X</button>
-            </div>
-            <div class="btn-rows">
-                <button class="btn">4</button>
-                <button class="btn">5</button>
-                <button class="btn">6</button>
-                <button class="btn btn--bg">-</button>
-            </div>
-            <div class="btn-rows">
-                <button class="btn">1</button>
-                <button class="btn">2</button>
-                <button class="btn">3</button>
-                <button class="btn btn--bg">+</button>
-            </div>
-            <div class="btn-rows">
-                <button class="btn">00</button>
-                <button class="btn">0</button>
-                <button class="btn">.</button>
-                <button class="btn btn--bg">=</button>
+    <div class=" w-ful h-[100vh] md:h-[580px] lg:h-[800px] md:w-[460px] md:rounded-[20px] md:border-[2px] md:border-zinc-300 bg-white dark:bg-zinc-700" >
+        <section class="h-[30%] w-full ">
+            <div id="screen" class="h-[95%] w-[80%] mx-auto flex place-content-end items-end font-rubik font-medium text-zinc-600 text-[55px] md:text-7xl dark:text-white ">0</div>
+        </section>
+        <section class="w-[100%] h-[70%] ">
+            <div class="h-full w-[85%] grid grid-cols-4 mx-auto py-5 border-t-[2px] border-gray-200 dark:border-zinc-600 ">
+                <button id="btn" class="w-[85%] md:w-[78%] h-[65%] md:h-[73%] mx-auto font-rubik font-semibold rounded-[100px] text-[30px] bg-gray-200  text-zinc-600 active:bg-gray-400 dark:bg-zinc-600 dark:text-white dark:active:bg-zinc-800">C</button>
+                <button id="btn" class="w-[85%] md:w-[78%] h-[65%] md:h-[73%]  mx-auto font-rubik font-semibold rounded-[100px] text-[30px] bg-gray-200  text-zinc-600 active:bg-gray-400 dark:bg-zinc-600 dark:text-white dark:active:bg-zinc-800">←</button>
+                <button id="btn" class="w-[85%] md:w-[78%] h-[65%] md:h-[73%]  mx-auto font-rubik font-semibold rounded-[100px] text-[30px] bg-gray-200  text-zinc-600 active:bg-gray-400 dark:bg-zinc-600 dark:text-white dark:active:bg-zinc-800">%</button>
+                <button id="btn" class="w-[85%] md:w-[78%] h-[65%] md:h-[73%]  mx-auto font-rubik font-semibold rounded-[100px] text-[30px] text-white bg-gradient-to-r from-sky-400 to-violet-600 active:from-sky-600 active:to-violet-800 ">/</button>
+                <button id="btn" class="w-[85%] md:w-[78%] h-[65%] md:h-[73%]  mx-auto font-rubik font-semibold rounded-[100px] text-[30px] bg-gray-200  text-zinc-600 active:bg-gray-400 dark:bg-zinc-600 dark:text-white dark:active:bg-zinc-800">7</button>
+                <button id="btn" class="w-[85%] md:w-[78%] h-[65%] md:h-[73%]  mx-auto font-rubik font-semibold rounded-[100px] text-[30px] bg-gray-200  text-zinc-600 active:bg-gray-400 dark:bg-zinc-600 dark:text-white dark:active:bg-zinc-800">8</button>
+                <button id="btn" class="w-[85%] md:w-[78%] h-[65%] md:h-[73%]  mx-auto font-rubik font-semibold rounded-[100px] text-[30px] bg-gray-200  text-zinc-600 active:bg-gray-400 dark:bg-zinc-600 dark:text-white dark:active:bg-zinc-800">9</button>
+                <button id="btn" class="w-[85%] md:w-[78%] h-[65%] md:h-[73%]  mx-auto font-rubik font-semibold rounded-[100px] text-[30px] text-white bg-gradient-to-r from-sky-400 to-violet-600 active:from-sky-600 active:to-violet-800 ">x</button>
+                <button id="btn" class="w-[85%] md:w-[78%] h-[65%] md:h-[73%]  mx-auto font-rubik font-semibold rounded-[100px] text-[30px] bg-gray-200  text-zinc-600 active:bg-gray-400 dark:bg-zinc-600 dark:text-white dark:active:bg-zinc-800">4</button>
+                <button id="btn" class="w-[85%] md:w-[78%] h-[65%] md:h-[73%]  mx-auto font-rubik font-semibold rounded-[100px] text-[30px] bg-gray-200  text-zinc-600 active:bg-gray-400 dark:bg-zinc-600 dark:text-white dark:active:bg-zinc-800">5</button>
+                <button id="btn" class="w-[85%] md:w-[78%] h-[65%] md:h-[73%]  mx-auto font-rubik font-semibold rounded-[100px] text-[30px] bg-gray-200  text-zinc-600 active:bg-gray-400 dark:bg-zinc-600 dark:text-white dark:active:bg-zinc-800">6</button>
+                <button id="btn" class="w-[85%] md:w-[78%] h-[65%] md:h-[73%]  mx-auto font-rubik font-semibold rounded-[100px] text-[30px] text-white bg-gradient-to-r from-sky-400 to-violet-600 active:from-sky-600 active:to-violet-800 ">-</button>
+                <button id="btn" class="w-[85%] md:w-[78%] h-[65%] md:h-[73%]  mx-auto font-rubik font-semibold rounded-[100px] text-[30px] bg-gray-200  text-zinc-600 active:bg-gray-400 dark:bg-zinc-600 dark:text-white dark:active:bg-zinc-800">1</button>
+                <button id="btn" class="w-[85%] md:w-[78%] h-[65%] md:h-[73%]  mx-auto font-rubik font-semibold rounded-[100px] text-[30px] bg-gray-200  text-zinc-600 active:bg-gray-400 dark:bg-zinc-600 dark:text-white dark:active:bg-zinc-800">2</button>
+                <button id="btn" class="w-[85%] md:w-[78%] h-[65%] md:h-[73%]  mx-auto font-rubik font-semibold rounded-[100px] text-[30px] bg-gray-200  text-zinc-600 active:bg-gray-400 dark:bg-zinc-600 dark:text-white dark:active:bg-zinc-800">3</button>
+                <button id="btn" class="w-[85%] md:w-[78%] h-[65%] md:h-[73%]  mx-auto font-rubik font-semibold rounded-[100px] text-[30px] text-white bg-gradient-to-r from-sky-400 to-violet-600 active:from-sky-600 active:to-violet-800">+</button>
+                <button id="btn" class="w-[85%] md:w-[78%] h-[65%] md:h-[73%]  mx-auto font-rubik font-semibold rounded-[100px] text-[30px] bg-gray-200  text-zinc-600 active:bg-gray-400 dark:bg-zinc-600 dark:text-white dark:active:bg-zinc-800">.</button>
+                <button id="btn" class="w-[85%] md:w-[78%] h-[65%] md:h-[73%]  mx-auto font-rubik font-semibold rounded-[100px] text-[30px] bg-gray-200  text-zinc-600 active:bg-gray-400 dark:bg-zinc-600 dark:text-white dark:active:bg-zinc-800">0</button>
+                <button id="btn" class="w-[85%] md:w-[78%] h-[65%] md:h-[73%]  col-span-2 mx-auto pr-[45%] font-rubik font-semibold rounded-[100px] text-[30px] bg-zinc-600 text-white active:bg-zinc-800  dark:bg-white dark:text-zinc-600 dark:active:bg-zinc-400 dark:active:text-zinc-800">=</button>
             </div>
            
         </section>

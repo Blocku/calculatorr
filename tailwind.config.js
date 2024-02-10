@@ -1,15 +1,13 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
   content: ["./index.html"],
   theme: {
     extend: {
-      colors: {
-        water: '#437DD4',
-        lightWater: '#6A94D4'
+      fontFamily: {
+        rubik: ["Rubik", "sans-serif", ...defaultTheme.fontFamily.sans],
       },
     },
-    
   },
   plugins: [],
 }
-
