@@ -601,6 +601,10 @@ video {
   width: 100%;
 }
 
+.w-\[90\%\] {
+  width: 90%;
+}
+
 .grid-cols-4 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
@@ -613,8 +617,8 @@ video {
   align-items: flex-end;
 }
 
-.rounded-\[100px\] {
-  border-radius: 100px;
+.rounded-full {
+  border-radius: 9999px;
 }
 
 .border-t-\[2px\] {
@@ -769,6 +773,10 @@ md:h-[60vh] md:w-[50vw] lg:w-[22vw]
 
   .md\:w-\[78\%\] {
     width: 78%;
+  }
+
+  .md\:w-\[90\%\] {
+    width: 90%;
   }
 
   .md\:place-content-center {
