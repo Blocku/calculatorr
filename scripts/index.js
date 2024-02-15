@@ -35,6 +35,8 @@ function handleSymbol(symbol){
                 buffer = buffer.substring(0, buffer.length - 1);
             }
             break;
+        case '.':
+            break;
         case '+':
         case '%':
         case '-':
